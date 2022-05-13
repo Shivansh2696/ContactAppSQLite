@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateContact">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="12dp"
+        app:cardCornerRadius="100dp"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:id="@+id/CapturedImage"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_upload_image_foreground"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="150dp"
+        android:text="First Name :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EnfName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="499dp"
+        android:gravity="center_horizontal"
+        android:hint="Enter First Name" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="195dp"
+        android:text="Last Name :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EnlName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="457dp"
+        android:gravity="center_horizontal"
+        android:hint="Enter Last Name" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="240dp"
+        android:text="Phone Number :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EnphoneNumber"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="412dp"
+        android:gravity="center_horizontal"
+        android:hint="Phone Number" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="285dp"
+        android:text="Email :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EnEmail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="367dp"
+        android:gravity="center_horizontal"
+        android:hint="Email Address" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:layout_marginTop="330dp"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/EnAddress"
+        android:hint="Enter Address"
+        android:gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="321dp" />
+
+    <Button
+        android:id="@+id/createContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="375dp"
+        android:text="Create Contact" />
+
+
+</RelativeLayout>

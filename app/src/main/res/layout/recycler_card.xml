@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="100dp"
+            android:layout_marginTop="5dp"
+            >
+            <ImageView
+                android:id="@+id/Image"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_upload_image_foreground"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/ContactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/conatact_name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ContactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/contact_number"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Caller"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/ic_caller" />
+
+        <ImageView
+            android:id="@+id/Dialer"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/ic_dialer" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
